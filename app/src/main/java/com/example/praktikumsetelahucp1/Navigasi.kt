@@ -57,7 +57,7 @@ fun Navigasi( // namanya sesuai dengan nama file
                     onBackKlick = { navHost.popBackStack() }
 
                 )
-
+            }
         }
     }
 }
