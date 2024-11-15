@@ -52,10 +52,11 @@ fun Navigasi( // namanya sesuai dengan nama file
                 )
             }
             composable(route = Halaman.Data.name) {
-                TampilMahasiswaView(mhs = uiState
+                TampilMahasiswaView(
+                    mhs = uiState,
+                    onBackKlick = { navHost.popBackStack() }
 
                 )
-            }
 
         }
     }
