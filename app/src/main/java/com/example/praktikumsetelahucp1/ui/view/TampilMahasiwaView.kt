@@ -17,7 +17,8 @@ import com.example.praktikumsetelahucp1.model.Mahasiswa
 
 @Composable
 fun TampilMahasiswaView(
-    mhs: Mahasiswa // diapanggil
+    mhs: Mahasiswa,
+    onBackKlick: () -> Unit
 
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
