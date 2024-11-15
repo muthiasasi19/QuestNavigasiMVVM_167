@@ -13,8 +13,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.praktikumsetelahucp1.model.Mahasiswa
 
-//
-
 @Composable
 fun TampilMahasiswaView(
     mhs: Mahasiswa,
@@ -36,7 +34,7 @@ fun TampilMahasiswaView(
             Isinya = mhs.email
         )
         TampilData(
-            Judul = "NomorHp",
+            Judul = "Nomor Handphone",
             Isinya = mhs.noHp
         )
 

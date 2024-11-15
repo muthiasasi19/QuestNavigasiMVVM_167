@@ -17,7 +17,7 @@ import com.example.praktikumsetelahucp1.ui.view.FormulirView
 import com.example.praktikumsetelahucp1.ui.view.TampilMahasiswaView
 import com.example.praktikumsetelahucp1.ui.viewmodel.MahasiswaViewModel
 
-enum class Halaman { //untuk halaman
+enum class Halaman {
     Form,
     Data
 }
