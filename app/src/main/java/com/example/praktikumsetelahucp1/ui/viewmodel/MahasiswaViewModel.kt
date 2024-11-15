@@ -1,6 +1,5 @@
 package com.example.praktikumsetelahucp1.ui.viewmodel
 
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import com.example.praktikumsetelahucp1.model.Mahasiswa
 import kotlinx.coroutines.flow.MutableStateFlow

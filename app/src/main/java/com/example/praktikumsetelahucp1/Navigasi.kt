@@ -8,7 +8,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -22,8 +21,6 @@ enum class Halaman { //untuk halaman
     Form,
     Data
 }
-
-
 @Composable
 fun Navigasi( // namanya sesuai dengan nama file
     modifier: Modifier = Modifier,
