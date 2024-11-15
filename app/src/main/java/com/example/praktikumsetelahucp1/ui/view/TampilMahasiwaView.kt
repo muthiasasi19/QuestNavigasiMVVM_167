@@ -26,6 +26,19 @@ fun TampilMahasiswaView(
 
         )
         TampilData(
+            Judul = "Nim",
+            Isinya = mhs.nim
+        )
+        TampilData(
+            Judul = "Email",
+            Isinya = mhs.email
+        )
+        TampilData(
+            Judul = "NomorHp",
+            Isinya = mhs.noHp
+        )
+
+        TampilData(
             Judul = "Gender",
             Isinya = mhs.gender // didapat dari model
 
