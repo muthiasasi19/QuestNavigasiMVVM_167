@@ -21,6 +21,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
@@ -58,6 +59,19 @@ fun FormulirView(
                 Text("Masukkan Nama Anda")
             }
         )
+
+        TextField(
+            value = nim,
+            onValueChange = { nim = it },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(5.dp),
+            label = { Text("Nim") },
+            placeholder = {
+                Text("Masukkan Nim Anda", color = Color.Gray)
+            }
+        )
+
         Row {
             pilihanJK.forEach { selectedJK ->
                 Row (verticalAlignment = Alignment.CenterVertically){
